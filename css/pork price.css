@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+.Titlebox{background-color:#FFADAE;height: 100px;}
+		.Title{font-size: 25px;font-family: simhei;letter-spacing: 5px;}
+		li{list-style-type: none;margin-left: 200px;padding-top:35px;color: aliceblue;float: left}
+		.Articlebox{border: 5px dotted #FFA5A7;background-color: #FDD2D3;width: 1200px;margin-left: 310px;margin-top: 30px;text-align: center;padding-top: 30px}
+		.Home{float: left;margin-top: 250px;margin-left: 40px;position: fixed}
+		.Hometext{font-size: 20px;color: #FF999A;font-family: simhei;text-align: center}
+		.Textboxone{border: 2px dashed #FF9B9D;background-color: #FFDDDE;margin-top: 20px;width: 400px;height: 80px;margin-left: 400px;margin-bottom: 30px}
+		.Texttitle{font-size: 30px;font-family: simhei;color: aliceblue;text-align: center;}
+		.Textboxtwo{border: 2px dashed #FF9B9D;background-color: #FFDDDE;margin-top: 20px;width: 500px;height: 80px;margin-left: 350px;margin-bottom: 30px}
+		.Textboxthree{border: 2px dashed #FF9B9D;background-color: #FFDDDE;margin-top: 20px;width: 800px;height: 90px;margin-left: 200px;margin-bottom: 30px}
+		.Text{font-family: simhei;font-size: 22px;color:#707070;text-align: left;letter-spacing: 5px;padding-left: 40px;padding-right:40px}
+		.Footer{background-color: #FFAFB1;margin-top: 50px;height: 70px}
+		.Footertext{color: aliceblue;font-family: simhei;font-size: 15px;text-align: center;padding-top: 20px}

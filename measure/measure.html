@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<title>无标题文档</title>
+<style>
+		<!--
+		.Titlebox{background-color:#FFADAE;height: 100px;}
+		.Title{font-size: 25px;font-family: simhei;letter-spacing: 5px;}
+		li{list-style-type: none;margin-left: 200px;padding-top:35px;color: aliceblue;float: left}
+		.Articlebox{border: 5px dotted #FFA5A7;background-color: #FDD2D3;width: 1200px;margin-left: 310px;margin-top: 30px;text-align: center;padding-top: 30px}
+		.Article{font-family: simhei;font-size: 20px;}
+		.Picture{margin-left: 200px;width: 800px;margin-top: 30px}
+		.Textbox{border: 2px dashed #FF9B9D;background-color: #FFDDDE;margin-top: 30px;width: 800px;height: 200px;margin-left: 200px;margin-bottom: 30px}
+		.Texttitle{font-size: 30px;font-family: simhei;color: aliceblue;text-align: center;}
+		.Text{font-family: simhei;font-size: 18px;color:#707070;text-align: left;letter-spacing: 5px;padding-left: 40px;padding-right: 40px;}
+		.Footer{background-color: #FFAFB1;margin-top: 50px;height: 70px}
+		.Footertext{color: aliceblue;font-family: simhei;font-size: 15px;text-align: center;padding-top: 20px}
+		.Home{float: left;margin-top: 250px;margin-left: 40px;position: fixed}
+		.Hometext{font-size: 20px;color: #FF999A;font-family: simhei;text-align: center}
+		-->	
+</style>
+  </head>
+
+  <body>
+	<div class="Titlebox">
+	  <span class="Title">
+		<ul>
+			<a href="../status analysis/status analysis.html"><li>中国猪瘟状况</li></a>
+			<a href="../farmer/farmer.html"><li>对养殖户影响</li></a>
+			<a href="../pork rice/pork rice.html"><li>对猪肉价格影响</li></a>
+		  <li>猪瘟防治措施</li>
+		</ul>
+	  </span>
+	</div>
+	<div class="Home">
+		<a href="../index.html"><img src="../img/logo2.png" width="100" alt="返回首页"></a>
+	  <p class="Hometext">返回首页</p>
+	</div>
+	<div class="Articlebox">
+	  <img src="../img/猪瘟防治措施.jpg" width="250px" height="300px" alt="防治措施">
+	  <div class="container">
+		<img src="101.jpg" id="adBanner" alt="措施️">
+	  </div>
+    <script>
+		window.onload=choosePic;
+		var adImages = new Array("101.jpg","103.jpg","105.jpg");
+		var thisAd=0;
+		function choosePic(){"use strict";
+		    thisAd=Math.floor((Math.random()*adImages.length));
+			document.getElementById("adBanner").src=adImages[thisAd];
+			rotate();}
+		
+		function rotate(){	
+			thisAd++;
+			if(thisAd===adImages.length){thisAd=0;}
+			document.getElementById("adBanner").src=adImages[thisAd];
+			setTimeout(rotate,3*1000);}
+    </script>
+	  
+	  <div class="Textbox">
+		<p class="Text">
+		  猪瘟虽然具有高度传染性疫病，但只要掌握其爆发特征，完全能够做到提前防控、有效防治。中国发生猪瘟疫情要因地制宜，采取适合我国防控的措施。如加强对野猪进行监测，发现疑似病例必须报告；对任何有发病或感染的猪强制进行销毁；推广疫苗接种从根源上预防猪瘟；对养猪场进行流动监察，划区域管辖。
+		</p>
+	  </div>
+	</div>
+	<div class="Footer">
+	  <p class="Footertext">
+		该网站一切解释权归zuo和fan所有，如有疑问欢迎咨询<br>qq:364274676|邮箱同qq
+	  </p>
+	</div>
+  </body>
+</html>
+
